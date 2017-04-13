@@ -51,7 +51,7 @@
     var interval = setInterval(() => {
       var isPresentElement = document.getElementById('live');
       if (isPresentElement) {
-        this.findHide();
+        this.findHide(); // calling the function
         clearInterval(interval);
       }
     }, 500);
