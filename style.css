@@ -1,0 +1,31 @@
+ .markets-hidden {
+  opacity: 0!important;
+  height: 20px!important;
+  -webkit-transition: height 1s ease-in-out, visibility 1s ease-in-out;
+  transition: height 1s ease-in-out,  visibility 1s ease-in-out;
+  visibility: hidden;
+  z-index: 4;
+}
+
+.markets-shown {
+  opacity: 1!important;
+  padding: auto!important;    
+  -webkit-transition: height 0.3s ease-in-out, opacity 0.3s ease-in-out, visibility 0.3s ease-in-out;
+  transition: height 0.3s ease-in-out, opacity 0.3s ease-in-out, visibility 0.3s ease-in-out;
+}
+
+.filter-hidden {
+  height: 0!important;
+  padding: 0!important;
+  -webkit-transition: height 0.1s ease-in-out, opacity 0.1s ease-in-out, visibility 0.5s ease-in-out;
+  transition: height 0.1s ease-in-out, opacity 0.1s ease-in-out, visibility 0.5s ease-in-out;
+  visibility: hidden;
+}
+
+.filter-shown {
+  opacity: 1!important;
+  height: 0!important;
+  padding: auto!important;    
+  -webkit-transition: height 0.1s ease-in-out, opacity 0.4s ease-in-out;
+  transition: height 0.1s ease-in-out, opacity 0.4s ease-in-out;
+}
